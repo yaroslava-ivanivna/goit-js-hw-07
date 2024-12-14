@@ -24,3 +24,20 @@ const images = [
     alt: "Lighthouse Coast Sea",
   },
 ];
+
+const createGalleryPicture = (imageInfo) => {
+  return ` <li class="gallery-item">
+  <a href ="#">
+  <img src="${imageInfo.url}" alt="${imageInfo.alt}" width="360" height="300"/> 
+  </a>
+  </li>
+  `;
+};
+
+const galleryCardArr = images
+  .map((image) => createGalleryPicture(image))
+  .join("");
+console.log(galleryCardArr);
+
+const galleryListEl = document.querySelector(".gallery");
+galleryListEl.innerHTML = galleryCardArr;
