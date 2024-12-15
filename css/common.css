@@ -176,3 +176,75 @@ input:focus::placeholder {
   text-decoration-skip-ink: none;
 }
 /* Task 6 */
+.div-with-btns {
+  background: rgba(246, 246, 254, 1);
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+.boxes-container {
+  margin-top: 16px;
+  background: rgba(246, 246, 254, 1);
+  display: flex;
+  align-items: center;
+  max-width: 486x;
+  max-height: 134px;
+  gap: 44px;
+}
+.task-six-input {
+  max-width: 150px;
+  max-height: 40px;
+  padding: 8px 72px 8px 72px;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px 0px 0px 0px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  color: rgba(46, 47, 66, 1);
+  opacity: 1;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.create-btn-task-six {
+  max-width: 120px;
+  max-height: 40px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  padding: 8px 16px 8px 16px;
+  gap: 10px;
+  border-radius: 8px;
+  opacity: 0px;
+  background: rgba(78, 117, 255, 1);
+  color: rgba(255, 255, 255, 1);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.destroy-btn-task-six {
+  max-width: 120px;
+  max-height: 40px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  padding: 8px 16px 8px 16px;
+  gap: 10px;
+  border-radius: 8px;
+  opacity: 0px;
+  background: rgba(255, 78, 78, 1);
+  color: rgba(255, 255, 255, 1);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
