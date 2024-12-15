@@ -184,11 +184,11 @@ input:focus::placeholder {
 }
 .boxes-container {
   margin-top: 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   background: rgba(246, 246, 254, 1);
   display: flex;
   align-items: center;
-  max-width: 486x;
-  max-height: 134px;
   gap: 44px;
 }
 .task-six-input {
